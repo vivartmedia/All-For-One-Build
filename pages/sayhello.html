@@ -35,14 +35,14 @@
                     <div class="text-center">
                         <h1 class="text-5xl font-bold mb-12">Say Hello</h1>
                         <p class="mb-12 text-3xl md:text-4xl">Enter your name to get a personal greetings</p>
-                        <input type="text"
+                        <input required id="inputSayHello" type="text"
                             class="justify-center form-input px-4 py-2 border rounded-md mb-4  center-placeholder"
                             placeholder="your name">
                         <p class="mb-4">Please enter your name and press the button</p>
-                        <button class="bg-fuchsia-700 hover:bg-blue-700 text-white font-bold py-3 px-5 rounded mb-10">
+                        <button id="outputButton" class="bg-fuchsia-700 hover:bg-fuchsia-800 text-white font-bold py-3 px-5 rounded mb-10">
                             Your Greeting
                         </button>
-                        <h3 class="text-2xl font-semibold">sdfas</h3>
+                        <h3 id="textOutput" class="text-2xl font-semibold"></h3>
                     </div>
         </div>
 
@@ -53,12 +53,8 @@
 
 
 
-
-
-
-
-
         <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+        <script src="../scripts/SayHello.js"></script>
 </body>
 
 </html>
